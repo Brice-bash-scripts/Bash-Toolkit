@@ -74,8 +74,8 @@ All scripts in this repository follow these conventions:
 Most scripts are intended to be executed directly:
 
 ```bash
-    chmod +x scripts/git/add_gitkeep_to_empty_dirs.sh
-    ./scripts/git/add_gitkeep_to_empty_dirs.sh
+    chmod +x scripts/git/mkgitkeep
+    ./scripts/git/mkgitkeep
 ```
 
 Optionally, scripts may be added to your `$PATH`:
