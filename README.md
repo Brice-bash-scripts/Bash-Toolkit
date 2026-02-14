@@ -109,6 +109,6 @@ Scripts that modify files or directories should:
 
 ## 👤 Author
 
-Brice  Nelson
-Backend & Applied ML Engineer
+Brice  Nelson  
+Backend & Applied ML Engineer  
 Building practical automation muscle alongside Python systems.
