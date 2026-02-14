@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# ------------------------------------------------------------
+# Script: mkgitkeep
+#
+# Description:
+# Recursively scans directories and adds a .gitkeep file
+# to any directory that is empty.
+#
+# Usage:
+#   ./mkgitkeep
+#
+# Notes:
+# - Skips .git and virtual environment directories
+# - Designed for Unix-like systems
+#
+# Author: Brice Nelson 
+# ------------------------------------------------------------
+
+
+# Variables
+GITKEEP_FILE = ".gitkeep"
+
+# Check to ensure script is run from the project root
+if [ ! -d ".git" ]; then
+    echo "Error. Must run from project root"
+    exit 1
+fi
+
+
